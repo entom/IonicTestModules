@@ -1,0 +1,22 @@
+<ion-view view-title="Sms">
+    <ion-content>
+        <div class="row">
+            <div class="col col-center">
+                <h1>Sms</h1>
+            </div>
+        </div>
+
+        <div class="list list-inset">
+            <label class="item item-input">
+                <i class="icon ion-android-phone-portrait placeholder-icon"></i>
+                <input type="text" placeholder="Phone number" ng-model="phone">
+            </label>
+        </div>
+
+        <div class="row">
+            <div class="col col-center">
+                <button class="button button-balanced" ng-click="sendMessage()">Send SMS</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
